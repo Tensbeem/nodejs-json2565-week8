@@ -15,5 +15,5 @@ const server = http.createServer((req,res)=>{ //3.Creating http server
 })
 
 server.listen(port,()=>{ // 4.Listening to http server
-    console.log(Server start at http://${hostname}:${port})
+    console.log('Server running at http://${hostname}:${port}')
 })
